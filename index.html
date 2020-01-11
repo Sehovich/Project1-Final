@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pet Club</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/slider.css">
+<script src="js/Java1.js"></script>
+<script src="js/Java2.js"></script>
+<script src="js/Java3.js"></script>
+<script src="js/Java4.js"></script>
+<script src="js/Java5.js"></script>
+<script src="js/Java6.js"></script>
+<script src="js/Java7.js"></script>
+<script src="js/Java8.js"></script>
+<script>
+$(window).load(function () {
+    $('.slider')._TMS({
+        show: 0,
+        pauseOnHover: false,
+        prevBu: '.prev',
+        nextBu: '.next',
+        playBu: false,
+        duration: 800,
+        preset: 'fade',
+        pagination: true, //'.pagination',true,'<ul></ul>'
+        pagNums: false,
+        slideshow: 8000,
+        numStatus: false,
+        banners: true,
+        waitBannerAnimation: false,
+        progressBar: false
+    })
+});
+$(window).load(function () {
+    $('.carousel1').carouFredSel({
+        auto: false,
+        prev: '.prev',
+        next: '.next',
+        width: 960,
+        items: {
+            visible: {
+                min: 3,
+                max: 3
+            },
+            height: 'auto',
+            width: 300,
+        },
+        responsive: true,
+        scroll: 1,
+        mousewheel: false,
+        swipe: {
+            onMouse: true,
+            onTouch: true
+        }
+    });
+});
+jQuery(document).ready(function () {
+    $().UItoTop({
+        easingType: 'easeOutQuart'
+    });
+});
+</script>
+</head>
+<body class="page1">
+<header>
+  <div class="container_12">
+    <div class="grid_12">
+      <h1><a href="index.html"><img src="images/logo.png" alt=""></a> </h1>
+      <div class="menu_block">
+        <nav>
+          <ul class="sf-menu">
+            <li class="current"><a href="index.html">Home</a></li>
+            <li class="about-us.html"><a href="about-us.html">About Us</a>
+            <li><a href="http://localhost/PetClub/contacts.html">Contact Us </a></li>
+          </ul>
+        </nav>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</header>
+<div class="top_block">
+  <div class="slider-relative">
+    <div class="slider-block">
+      <div class="slider">
+        <ul class="items">
+          <li><img src="images/slide.jpg" alt="">
+            <div class="banner">They Need Your <b>Love</b> and <b>Care</b>
+              <p>Pets are humanizing. They remind us we have an obligation and responsibility</p>
+            </div>
+          </li>
+          <li><img src="images/slide1.jpg" alt="">
+            <div class="banner">They Need Your <b>Love</b> and <b>Care</b>
+              <p>It is so easy to make them happy</p>
+            </div>
+          </li>
+          <li><img src="images/slide2.jpg" alt="">
+            <div class="banner">They Need Your <b>Love</b> and <b>Care</b>
+              <p>An animal's eyes have the power to speak a great language</p>
+            </div>
+          </li>
+          <li><img src="images/slide3.jpg" alt="">
+            <div class="banner">They Need Your <b>Love</b> and <b>Care</b>
+              <p>Animals are reliable, many full of love, true in their affections, predictable in their actions</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page1_block">
+  <div class="container_12">
+    <div class="grid_6">
+      <h2>Welcome to My Pet Club</h2>
+      <br>
+      <img src="images/page1_img5.jpg" alt="" class="img_inner fleft">
+      <div class="clear"></div>
+      
+      This is not a website for selling and buying Pets or Pet goods.This is a website were you can read fun and interesting information about all kids of pets.94% of pet owners say their animal pal makes them smile more than once a day.
+      The American Veterinary Dental Society states that 80% of Dogs and 70% of cats show signs of oral disease by age 3.</div>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="content page1">
+  <div class="container_12">
+    <div class="grid_12"> <a href="#" class="next"></a><a href="#" class="prev"></a>
+      <h2>Cool Information about Pets</h2>
+    </div>
+    <div class="clear"></div>
+    <ul class="carousel1">
+      <li class="grid_4"> <img src="images/animal1.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper pad1">
+          <p class="col2"><a href="#">House Cats</a></p>
+          Cat whiskers are so sensitive they can detect the slightest change in air current. </div>
+      </li>
+      <li class="grid_4"> <img src="images/animal2.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper pad1">
+          <p class="col2"><a href="#">Parrot</a></p>
+          Most parrot species rely on seeds as food. Others may eat fruit, nectar, flowers or small insects </div>
+      </li>
+      <li class="grid_4"> <img src="images/animal3.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper pad1">
+          <p class="col2"><a href="#">Dog</a></p>
+          Greyhounds are the world’s fastest dogs with the ability to reach up to 45 mph. </div>
+      </li>
+      <li class="grid_4"> <img src="images/animal4.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper pad1">
+          <p class="col2"><a href="#">Puppies</a></p>
+         Did you know that puppies are born blind and deaf? </div>
+      </li>
+      <li class="grid_4"> <img src="images/animal5.jpg" alt="" class="img_inner fleft">
+        <div class="extra_wrapper pad1">
+          <p class="col2"><a href="#">Street Cats</a></p>
+          Street cats with good hygiene and vactintion can make great house pets </div>
+      </li>
+    </ul>
+  </div>
+</div>
+<div class="bottom_block">
+  <div class="container_12">
+    <div class="grid_6">
+      <h2>Pet Care Tips </h2>
+      <br>
+      Pets fed a high quality diet have a shiny hair coat, healthy skin, and bright eyes. A good diet can help strengthen your pet’s immune system, help maintain his or her intestinal health, help increase his or her mental acuity, help keep joints and muscles healthy, and much more.Pets that are overweight are at risk for a myriad of health issues. Obesity is the number one nutritional disease seen in pets currently and studies have shown that being overweight or obese can shorten a dog or cat’s life span by as much as two years. Why? Being overweight or obese puts your pet at risk for joint disease, heart disease and diabetes, among other things. </div>
+    <div class="grid_4 prefix_2">
+      <h2 class="ic1">Any Question?</h2>
+      <img src="images/page1_img4.jpg" alt="" class="fleft img_inner">
+      <div class="extra_wrapper">
+        <div class="cont"> Call Us : <span>+0603 320 820</span> </div>
+      </div>
+      <div class="clear"></div>
+      My name is Armin Šehovic and I am a big lower of all kinds of pets,I hope this page will help or bring a smile to your face with some of the information I have prepared.Sometimes a pet can bring more joy that a Human Being and the existance of pets should be charised and celebrated </div>
+  </div>
+</div>
+<footer>
+  <div class="container_12">
+    <div class="grid_12">
+      <div class="socials"> <a href="#"></a> <a href="#"></a> <a href="#"></a> <a href="#"></a> </div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</footer>
+</body>
+</html>
